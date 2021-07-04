@@ -2,6 +2,12 @@
 
 Nesta live coding desenvolvi um sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
+<h2>Modificações<h2>
+
+<h3>Acrescentei algumas funcionalidaes ao projeto, por exemplo procurar uma pessoa pela FirstName ou pelo lastName<h3>
+<h3>Também acrescentei a uma atributo chamado dataCadastro que é setado automaticamente com a data atual no momento do cadastro<h3>
+
+
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
@@ -22,8 +28,6 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 http://localhost:8080/api/v1/people
 ```
 
-<h3>Acrescentei algumas funcionalidaes ao projeto, por exemplo procurar uma pessoa pela FirstName ou pelo lastName<h3>
-<h3>Também acrescentei a uma atributo chamado dataCadastro que é setado automaticamente com a data atual no momento do cadastro<h3>
 
 
 
