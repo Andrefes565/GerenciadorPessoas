@@ -2,12 +2,12 @@
 
 Nesta live coding desenvolvi um sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
-<h2>Modificações<h2>
+<h2>Modificações</h2>
 Acrescentei algumas funcionalidaes ao projeto, por exemplo procurar uma pessoa pela FirstName ou pelo lastName
 Também acrescentei a uma atributo chamado dataCadastro que é setado automaticamente com a data atual no momento do cadastro
 
 
-Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
+<h2>Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:</h2>
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
 * Criação de modelo de dados para o mapeamento de entidades em bancos de dados
