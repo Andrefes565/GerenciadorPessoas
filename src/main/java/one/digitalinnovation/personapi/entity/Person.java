@@ -36,7 +36,10 @@ public class Person {
     private List<Phone> phones;
 
 
+    private LocalDate dataCadastro;
 
-
-
+    @PrePersist
+    public void prePersist() {
+        setDataCadastro(LocalDate.now());
+    }
 }
