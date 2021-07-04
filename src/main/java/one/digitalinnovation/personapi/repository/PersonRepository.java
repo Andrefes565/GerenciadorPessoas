@@ -8,5 +8,6 @@ import java.util.List;
 
 public interface PersonRepository extends JpaRepository<Person, Long> {
 
-
+   List<Person> findByFirstNameContains(String nomePessoa);
+   List<Person> findByLastNameContains(String lastName);
 }

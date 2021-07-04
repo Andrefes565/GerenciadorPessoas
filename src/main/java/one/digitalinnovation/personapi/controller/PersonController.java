@@ -41,7 +41,15 @@ public class PersonController {
         return personService.findById(id);
     }
 
+    @GetMapping("/firstName")
+    public List<PersonDTO> findByFirstName(@RequestParam("firstName") String firstName) {
+        return personService.findByFirstName(firstName);
+    }
 
+    @GetMapping("/lastName")
+    public List<PersonDTO> findByLastName(@RequestParam("lastName") String lastName) {
+        return personService.findByLastName(lastName);
+    }
 
     @PutMapping("/{id}")
     public MessageResponseDTO updateById(@PathVariable Long id, @RequestBody @Valid PersonDTO personDTO) throws PersonNotFoundException {
